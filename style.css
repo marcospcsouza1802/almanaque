@@ -301,11 +301,17 @@
      .colunas {
          width: 90%;
      }
+     .coluna {
+         width: 28%;
+     }
      .acesso {
          margin-left: 10px;
      }
      .sobre-part {
          width: 85%;
+     }
+     .final-text {
+         font-size: 7px;
      }
      .preco-original {
          font-size: 18px;
