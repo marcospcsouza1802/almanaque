@@ -167,7 +167,7 @@
  }
  
  .coluna {
-     width: 85px;
+     width: 90px;
      text-align: left;
      margin: 10px;
      margin-top: 10px;
@@ -277,15 +277,18 @@
          font-size: 15px;
      }
      .img-carrossel {
-         width: 400px;
-         height: 250px;
+         width: 90%;
+         height: auto;
      }
      .video {
-         width: 500px;
-         height: 350px;
+         width: 100%;
+         height: auto;
      }
      .colunas {
-         width: 400px;
+         width: 90%;
+     }
+     .acesso {
+         margin-left: 10px;
      }
      .sobre-part {
          width: 85%;
