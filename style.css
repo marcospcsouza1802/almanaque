@@ -169,9 +169,10 @@
  .coluna {
      width: 90px;
      text-align: left;
-     margin: 10px;
      margin-top: 10px;
      margin-bottom: 30px;
+     margin-right: 10px;
+     margin-left: 10px;
  }
  
  .img-colunas {
@@ -188,6 +189,19 @@
  
  .legenda-colunas {
      font-size: 10px;
+ }
+ 
+ video::-internal-media-controls-download-button {
+     display: none;
+ }
+ 
+ video::-webkit-media-controls-enclosure {
+     overflow: hidden;
+ }
+ 
+ video::-webkit-media-controls-panel {
+     width: calc(100% + 30px);
+     /* Adjust as needed */
  }
  
  @-webkit-keyframes pulse {
@@ -306,6 +320,9 @@
          text-decoration: none;
          display: inline-block;
          font-size: 25px
+     }
+     .titulo-colunas {
+         font-size: 17px;
      }
  }
  
