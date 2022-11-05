@@ -305,7 +305,7 @@
      }
      .colunas {
          width: 90%;
-         height: 150px;
+         height: auto;
      }
      .coluna {
          width: 28%;
