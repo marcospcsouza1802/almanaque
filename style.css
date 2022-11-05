@@ -26,6 +26,11 @@
      align-items: center;
  }
  
+ .video-vsl {
+     width: 700px;
+     height: 400px;
+ }
+ 
  #tela2 {
      background-color: #0056ba;
      color: white;
