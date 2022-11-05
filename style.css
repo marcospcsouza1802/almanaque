@@ -300,6 +300,7 @@
      }
      .colunas {
          width: 90%;
+         height: 145px;
      }
      .coluna {
          width: 28%;
@@ -328,7 +329,10 @@
          font-size: 25px
      }
      .titulo-colunas {
-         font-size: 17px;
+         font-size: 15px;
+     }
+     .legenda-colunas {
+         font-size: 8px;
      }
  }
  
