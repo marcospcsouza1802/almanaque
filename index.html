@@ -10,13 +10,13 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <meta name="facebook-domain-verification" content="1gzy5txbdphjkc5z98prhy2ml1lx5p" />
     <script src="main.js"></script>
-    <!-- Meta Pixel Code -->
+    <!-- Facebook Pixel Code -->
     <script>
         ! function(f, b, e, v, n, t, s) {
             if (f.fbq) return;
             n = f.fbq = function() {
-                n.callMethod ?
-                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+                if (arguments[1] === "Purchase" && typeof arguments[2].order_id === "undefined") return;
+                n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
             };
             if (!f._fbq) f._fbq = n;
             n.push = n;
@@ -37,13 +37,13 @@
     src="https://www.facebook.com/tr?id=669457527954065&ev=PageView&noscript=1"
     /></noscript>
     <!-- End Meta Pixel Code -->
-    <!-- Meta Pixel Code -->
+    <!-- Facebook Pixel Code -->
     <script>
         ! function(f, b, e, v, n, t, s) {
             if (f.fbq) return;
             n = f.fbq = function() {
-                n.callMethod ?
-                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+                if (arguments[1] === "Purchase" && typeof arguments[2].order_id === "undefined") return;
+                n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
             };
             if (!f._fbq) f._fbq = n;
             n.push = n;
