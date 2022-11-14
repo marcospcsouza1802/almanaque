@@ -198,7 +198,7 @@
 }
 
 #btnComprar {
-    display: block;
+    display: none;
 }
 
 #precoOriginal {
