@@ -5,4 +5,4 @@ function showSubmit() {
     document.getElementById('precoPromocional').style.display = 'block';
 }
 
-setTimeout(showSubmit, 180000);
+setTimeout(showSubmit, 0);

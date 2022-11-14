@@ -129,15 +129,16 @@
 
 .box-pulse {
     width: 100%;
-    width: 500px;
+    width: 700PX;
     margin: 0 auto;
     padding: 0 30px;
+    margin-top: 20px;
 }
 
 .box-pulse button {
     text-decoration: none;
     display: inline-block;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 800;
     -moz-transition: all 0.4s;
     -o-transition: all 0.4s;
@@ -197,7 +198,7 @@
 }
 
 #btnComprar {
-    display: none;
+    display: block;
 }
 
 #precoOriginal {
