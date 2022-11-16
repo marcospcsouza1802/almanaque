@@ -7,4 +7,4 @@ function showSubmit() {
 
 }
 
-setTimeout(showSubmit, 180000);
+setTimeout(showSubmit, 3000);
