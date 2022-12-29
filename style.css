@@ -100,14 +100,14 @@
      height: 50px;
      font-size: 26px;
      font-weight: 700;
-     background-color: #ef5858;
+     background-color: #f01e4f;
      color: #ffffff;
      border: none;
      border-radius: 5px;
  }
  
  .btn-comprar2:hover {
-     background-color: #ba4343;
+     background-color: rgb(168, 43, 43);
      transition: .3s;
  }
  
@@ -147,7 +147,7 @@
  .botao-pulse {
      padding: 10px 30px;
      color: #fff;
-     background-color: #ef5858;
+     background-color: #f01e4f;
      border-radius: 3px;
      -webkit-animation: pulse 1s ease infinite;
      -moz-animation: pulse 1s ease infinite;
@@ -157,7 +157,7 @@
  }
  
  .botao-pulse:hover {
-     background-color: #ba4343;
+     background-color: rgb(168, 43, 43);
  }
  
  .colunas {
