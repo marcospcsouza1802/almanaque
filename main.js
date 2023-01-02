@@ -3,10 +3,6 @@ function showSubmit() {
     document.getElementById('precoPromocional').style.display = 'block';
     document.getElementById('ofertaLimitada').style.display = 'block';
     document.getElementById('precoOriginal').style.display = 'block';
-    document.getElementById('tela2').style.display = 'flex';
-
-
-
 }
 
-setTimeout(showSubmit, 1500000);;
+setTimeout(showSubmit, 1);;
