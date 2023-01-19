@@ -106,6 +106,10 @@
      border-radius: 5px;
  }
  
+ .github {
+     border: none;
+ }
+ 
  .btn-comprar2:hover {
      background-color: rgb(168, 43, 43);
      transition: .3s;
